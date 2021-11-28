@@ -21,7 +21,7 @@ Design: [Serlokas](https://cdn.discordapp.com/attachments/648536139677958156/648
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Evelinatoleike: [Github](https://github.com/Evelinatoleike)
 
 ## Code sample
 
