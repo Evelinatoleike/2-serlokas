@@ -9,12 +9,13 @@
 </head>
 
 <body>
-    <div style="background-color: yellow; width: 50%; margin-left: 25%; margin-top: 15%; display: inline-block;">
-        <div style="background-color: pink; width: 40%; display: inline-block; float: left;">
-            KAIRE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas natus temporibus id ut, voluptatibus debitis. Culpa adipisci officiis corrupti accusantium ipsam perspiciatis nihil possimus aperiam voluptate quia architecto, quae quasi.
-        </div>
-        <div style="background-color: aquamarine; width: 50%; display: inline-block; float: left; margin-left: 10%;">
-            DESINE Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero autem aperiam dignissimos dicta sint molestiae! Excepturi at repudiandae id eveniet. Quis, recusandae suscipit hic est autem ratione laborum provident nisi!
+    <div style="background-color: yellow; width: 50%; margin-left: 25%; margin-top: 8%; display: inline-block;">
+        <img src="./serlokas.jpg" alt="Serlokas su pypke" style="background-color: pink; width: 40%; float: left;">
+        <div style="background-color: aquamarine; margin-top: 18%; width: 50%; float: left; margin-left: 10%;">
+            <h1>404</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi illum repellat corporis aliquid voluptate fugit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#">Back home</a>
         </div>
     </div>
 </body>
@@ -24,6 +25,14 @@
 <!--
 KOMENTARAI:
 ===========
+
+Sventa Marija (kaip kurti turini su stulpeliais ir netureti problemu):
+visiems elementams reikia pateikti tokias savybes:
+display: inline-block;                 (elementai turi teise griuti vienas salia kito)
+Float: left;                            (niekas nepraras savo aukscio ir ju dydis bus nekintamas)
+width: 100%;                             ()
+naudojant siuos tris elementus visiems blokams, bus ju isdestymas tvarkingas. tevinis elementas turi display: inline-block, o vaikai float: left. Jei tevas display neturi, jis isnyksta.
+
 
 Stiliaus rasymo sintakse:
 savybes-pavadinimas: reiksme;
@@ -40,10 +49,10 @@ margin-bottom: 25%;
 
 Elementu atvaizdavimas:
 display: block;    default (nepriklausomai nuo plocio, elementai krenta horizontaliai)
-dispay: inline-block;      (elementas gali buti vienoje eileje su kitais melementais)
+dispay: inline-block;      (elementas gali buti vienoje eileje su kitais elementais)
 
 
-Priverstinis elementu sustumimas horizontaliai:
+Priverstinis elementu sustumimas horizontaliai: (naikinami tarpeliai)
 float: left;
 float: right;
 
