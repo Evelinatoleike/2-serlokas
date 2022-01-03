@@ -1,10 +1,10 @@
 {
   "name": "2-serlokas",
   "version": "1.0.0",
-  "description": "Pirmasis dizaino projektas",
+  "description": "Pirmasis dizaino projektas atnaujintas",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server --port=3000 --host=localhost",
+    "dev": "live-server --port=3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
